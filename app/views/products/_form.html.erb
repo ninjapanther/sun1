@@ -25,7 +25,15 @@
     <%= f.label :image %>
     <%= f.text_field :image %>
   </div>
-
+<div class="field">
+<select name="product[category]" id="category">
+  <option value="meat">meat</option>
+  <option value="cheese">cheese</option>
+  <option value="beans">beans</option>
+  <option value="fruits">fruits</option>
+  <option value="vegetables">vegetables</option>
+</select>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
